@@ -9,5 +9,5 @@ const thirdGreeting = core.getInput("third-greeting");
 console.log(`Hello ${firstGreeting}`);
 console.log(`Hello ${secondGreeting}`);
 if (thirdGreeting){
-    console.log(`Hello ${firstGreeting}`);
+    console.log(`Hello ${thirdGreeting}`);
 }
