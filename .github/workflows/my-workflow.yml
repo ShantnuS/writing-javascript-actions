@@ -1,16 +1,17 @@
-name: JS Actions
+# name: JS Actions
 
-on: [push]
+# on: [push]
 
-jobs:
-  action:
+# jobs:
+#   action:
 
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v1
+#     runs-on: ubuntu-latest
+#     steps:
+#     - uses: actions/checkout@v1
 
-    - name: hello-action
-      uses: ./.github/actions/hello-world
-      with: 
-        first-greeting: "Learning Lab Shan"
-        third-greeting: "jimbo jim"
+#     - name: hello-action
+#       uses: ./.github/actions/hello-world
+#       with: 
+#         first-greeting: "Learning Lab Shan"
+#         third-greeting: "jimbo jim"
+
