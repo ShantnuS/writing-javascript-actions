@@ -2,6 +2,9 @@ const core = require("@actions/core");
 const github = require("@actions/github");
 
 async function run(){
+    console.log(core.getInput("joke"));
+    console.log(core.getInput("issue-title"));
+
     try{
         const issueTitle = core.getInput("issue-title");
         const jokeBody = core.getInput("joke");
