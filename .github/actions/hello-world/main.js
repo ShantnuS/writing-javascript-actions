@@ -1,5 +1,5 @@
 console.log("Hello World");
-
+//log ^_^
 const core = require("@actions/core");
 
 const firstGreeting = core.getInput("first-greeting");
